@@ -29,7 +29,7 @@ func findNthPrime(number: Int) {
         }
     }
 
-    // Remove 0
+    // Remove 0 because it is not a prime
     primes.removeFirst()
 
     print(primes[number])
